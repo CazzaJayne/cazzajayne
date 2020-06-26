@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<title>Assessment 1: My Profile</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("//live.staticflickr.com/8682/28914488091_3446028bbf_b.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#personal information" class="w3-bar-item w3-button">PERSONAL INFORMATION</a>
+      <a href="#interest in it" class="w3-bar-item w3-button"><i class="fa fa-user"></i> INTEREST IN IT</a>
+      <a href="#ideal job" class="w3-bar-item w3-button"><i class="fa fa-th"></i> IDEAL JOB</a>
+      <a href="#personal profile" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PERSONAL PROFILE</a>
+      <a href="#project idea" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> PROEJCT IDEA</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#personal information" onclick="w3_close()" class="w3-bar-item w3-button">PERSONAL INFORMATION</a>
+  <a href="#interest in it" onclick="w3_close()" class="w3-bar-item w3-button">INTEREST IN IT</a>
+  <a href="#ideal job" onclick="w3_close()" class="w3-bar-item w3-button">IDEAL JOB</a>
+  <a href="#personal profile" onclick="w3_close()" class="w3-bar-item w3-button">PERSONAL PROFILE</a>
+  <a href="#project idea" onclick="w3_close()" class="w3-bar-item w3-button">PROJECT IDEA</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Caroline Burt - S38661634</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">I am married to a lovely man and we have two awesome children (well young adults - boy 19 years old and a girl 16 years old)</span><br>
+    <span class="w3-large">I am married to a lovely man and we have two awesome children...</span><br>
+    <span class="w3-large">(well young adults - boy 19 years old and a girl 16 years old) and 2 fur (mini dachshund babies.</span><br>
+    <span class="w3-large">As a family we enjoy 4wdriving and waterskiing. I love to go walking with the fur babies when every possible and enjoying a nice glass of wine with the hubby while sitting on the back deck watching the sun set.</span><br>
+    <span class="w3-medium">CAN YOU GUESS WHERE I LIVE FROM MY PHOTO!!</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">LEARN MORE ON ME TODAY</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-envelope w3-hover-opacity"> s3861634@student.rmit.edu.au</i>
+  </div>
+</header>
+
+<!-- Interest in IT -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">INTEREST IN IT</h3>
+  <p class="w3-center w3-large">Why IT for me?</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-medium">INTEREST IN IT</p>
+      <p>September 2019 I changed roles at my current Employer into the IT department.</p><BR>
+      <p>My new manager encouraged me to take on this course, gaining knowledge for furthering my career.</p><br>
+      <p>NO IT EXPERIENCE FOR ME!!</p>
+      
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-building w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">WHY RMIT?</p>
+      <p>Having the flexibility to complete the course on line.</p><br>
+      <p>As I work two jobs at the present moment the flexibility is great for working in with my shifts.</p><br>
+      <p>DEFINITELY NO FREE TIME FOR THIS PERSON!!</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-book w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">OUTCOMES FROM COURSE</p>
+      <p>I am hoping to have more of an understanding of IT terminology so during meeting I get what my colleagues are talking about.</p><br>
+      <p>I am enjoying this course, it is definitely making the old brain think again.</p><br>
+      <p>BRING ON THE NEXT ASSESSMENT!!</p>
+    </div>    
+    <div class="w3-quarter">
+      <i class="fa fa-question w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">JUST BECAUSE!!</p>
+      <p>Wikipedia: I know everything!</p><br>
+      <p>Google: I have everything!</p><br>
+      <p>Facebook: I know everybody!</p><br>
+      <p>Internet: Without me you are nothing!</p><br>
+      <p>Electricity: Keep talking bitches!</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "Ideal Job -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>IDEAL JOB</h3>
+      <p>At this stage I am not sure what my ideal job would be in IT.</p><br>
+      <p>I have enjoyed creating this website, so doing this as a career could be a possibility!!</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Ideal Job Description</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="//i.ebayimg.com/images/i/271974897081-0-1/s-l1000.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Ideal Job -->
+<div class="w3-container" style="padding:128px 16px" id="ideal job">
+  <h3 class="w3-center">MY IDEAL JOB</h3>
+  <p class="w3-center w3-large">Something to thing about!</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="//i.ebayimg.com/images/i/271974897081-0-1/s-l1000.jpg" lt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Job Advertisement</h3>
+          <p class="w3-opacity">Junior DevOps Programmer</p>
+          <p>Are you a fresh graduate out of Uni?</p><br>
+          <p>Want to gain valuable experience developing and maintaining code for our in-house software?</p><br>
+          <p>Then look no further...</p><br>
+          <a href="https://www.seek.com.au/job/50121357?type=standard#searchRequestToken=490a0150-1496-4940-86d4-15a14b63f07c">click here to see Junior DevOps advert</a>          
+        </div>
+       </div>
+      </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3>Description of Position</h3>
+          <p class="w3-opacity">Junior DevOps</p>
+           <p>As a Junior DevOps Programmer I would be responsible for supporting my colleagues in the DevOps environment.</p><br>
+           <p>This could include maintenance, enhancements, upgrades, operations support, onboarding new products and migrations of software applications</p><br>
+           <p>I find this position appealing as the advert caught my eye and working in the industry of medical, beauty and healthcare is a field that is always evolving</p>    
+        </div>
+       </div>
+      </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3>Skills, Qualifications and Experience</h3>
+          <p class="w3-opacity">Junior DevOps Programmer</p>
+          <p>Knowledge of basic coding languages including C++, HTML and JavaScript</p><br>
+          <p>Basic programming experience and knowledge of databases and operating systems</p><br>
+          <p>Good working knowledge of email systems and MicroSoft Office software</p><br>
+          <p>Ability to learn new software and technologiees quickly</p><br>
+          <p>Ability to follow instructions and work in a team environment</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <div class="w3-container">
+          <h3>My Skills, Qualifications and Experience</h3>
+          <p class="w3-opacity">Junior DevOps Programmer</p><br>
+          <p> None other that what I am currently studying in the Introduction to IT course</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">MY PLAN</h3>
+  <p class="w3-center w3-large">What to do!!!</p><br>
+  <p class="w3-center w3-large">Practice, Practice, Practice and Study, Study, Study and assist colleagues at work</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      
+    </div>
+  </div>
+</div>
+
+<!-- Personal Profile -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Personal Profile ESFJ-A - Consul</h3>
+      <p>The results of my test show me that I am:</p><br>
+      <p>...satisfied with my life</p><br>
+      <p>...seek commitments in my relationship</p><br>
+      <p>...enjoy teaching or mentoring others</p><br>
+      <p>...have good handwriting</p><br>
+      <p>...remember birthdays easily</p><br>
+      <p>Many Consuls are known for their social and administrative skills, good at creating and maintaining a secure, stable and friendly environment for themselves and others.<br>
+      <p>We are also known for being able to manage our workloads which will be very beneficial for group activities but need to be willing and able to challenge myself.</p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-w3-margin-right"></i>Extraverted against Introverted</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:68%">68% Estraverted</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-w3-margin-right"></i>Intuitive against Observant</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:63%">63% Observant</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-w3-margin-right"></i>Thinking against Feeling</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75% Feeling</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-w3-margin-right"></i>Judging against Prospecting</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:72%">72% Judging 72%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-w3-margin-right"></i>Assertive against Turbulent</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:67%">67% Assertive</div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Project Idea -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="project">
+  <h3 class="w3-center">PROJECT IDEA</h3>
+  <p class="w3-center w3-large">Lets get designing</p>
+  <div style="margin-top:48px">
+    <br>
+          <p>I am stuck on a IT Project Idea</p>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
